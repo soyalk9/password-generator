@@ -82,4 +82,9 @@ function generatePronounceablePassword(length) {
   let password = '';
   
   for (let i = 0; i < length; i++) {
-    const charSet = i % 
+    const charSet = i % 2 === 0 ? consonants : vowels;
+    password += charSet.charAt(Math.floor(Math.random() * charSet.length));
+  }
+
+  return password;
+}
