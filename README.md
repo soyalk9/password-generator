@@ -3,10 +3,13 @@
 🔐 **A simple yet powerful password generator web app** designed to help users create strong, random passwords for securing their online accounts. This project mimics the dark theme and aesthetic of Discord, offering a sleek, easy-to-use interface.
 
 ## Features
-- **Generate Strong Passwords:** Generates 16-character random passwords with a mix of uppercase letters, lowercase letters, numbers, and special characters.
-- **Copy to Clipboard:** One-click copy to easily store the password for later use.
-- **Discord-Inspired Design:** Clean, dark-themed UI that closely resembles the interface of popular messaging apps like Discord.
-- **Responsive Design:** Works smoothly on both desktop and mobile devices.
+- **Password Strength Checker**: Evaluates the strength of the generated password.
+- **Customizable Password Options**: Allows users to select from uppercase letters, lowercase letters, numbers, special characters, and more.
+- **Password Length Selector**: Users can select the desired password length (8-32 characters).
+- **Exclude Ambiguous Characters**: Removes characters like 1, I, l, O, 0 for easy readability.
+- **Pronounceable Password Option**: Generates passwords that are easier to read and pronounce.
+- **Copy to Clipboard**: Allows users to easily copy the generated password to their clipboard.
+
 
 ## Technologies Used
 - **HTML5** for the structure of the website.
